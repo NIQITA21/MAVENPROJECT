@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="BROWSER" value="Chrome"/>
+  <listeners>
+    <listener class-name="Generic.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Querypackage.CreateorgTest">
+        <methods>
+          <include name="createorganisation"/>
+          <include name="logout"/>
+          <include name="closebrowser"/>
+          <include name="Login"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- Querypackage.CreateorgTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
